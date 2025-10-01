@@ -13,7 +13,9 @@
 書名: Azure OpenAIエージェント・RAG 構築実践ガイド  
 Amazon: https://www.amazon.co.jp/dp/4296080466/
 
-![書籍表紙: Azure OpenAIエージェント・RAG 構築実践ガイド](./img/Azure%20OpenAIエージェント・RAG%20構築実践ガイド.jpg)
+| 表紙 | 側面 | 裏側 |
+| --- | --- | --- |
+| ![表紙](./img/Azure%20OpenAIエージェント・RAG%20構築実践ガイド表紙.png) | ![側面](./img/Azure%20OpenAIエージェント・RAG%20構築実践ガイド側面.png) | ![裏側](./img/Azure%20OpenAIエージェント・RAG%20構築実践ガイド裏.png) |
 
 | 項目 | 内容 |
 | --- | --- |
@@ -181,8 +183,8 @@ Amazon: https://www.amazon.co.jp/dp/4296080466/
 | 3.2.5.3 Multi Modal RAG 実装フロー | [multi_modal_rag.py](https://github.com/AvanadeJapanPublishingQuery/AzureOpenAIAgent-RAG-PracticalGuide-book/tree/main/第3章_RAG/3.2%20RAGの種類/3.2.5%20Multi%20Modal%20RAG/3.2.5.3　実装フローと各ステップの解説) |
 | 3.3.4.4.1 正解データありの自動評価 | [評価スクリプト群](https://github.com/AvanadeJapanPublishingQuery/AzureOpenAIAgent-RAG-PracticalGuide-book/tree/main/第3章_RAG/3.3%20RAG実装時に考慮すべきポイント/3.3.4%20RAGの評価/3.3.4.4　実装例~Ragasによる評価/3.3.4.4.1　正解データありの自動評価) |
 | 3.4.3.2 使用ライブラリと事前準備 | [index.py](https://github.com/AvanadeJapanPublishingQuery/AzureOpenAIAgent-RAG-PracticalGuide-book/tree/main/第3章_RAG/3.4%20RAGからAgentへ/3.4.3%20Agentic%20RAGの実装/3.4.3.2　使用ライブラリと事前準備) |
-| 3.4.3.3 データセットの準備 | [dataset.py](https://github.com/AvanadeJapanPublishingQuery/AzureOpenAIAgent-RAG-PracticalGuide-book/tree/main/第3章_RAG/3.4%20RAGからAgentへ/3.4.3%20Agentic%20RAGの実装/3.4.3.3　データセットの準備) |
-| 3.4.3.4 ベクトル化と検索処理 | [search.py](https://github.com/AvanadeJapanPublishingQuery/AzureOpenAIAgent-RAG-PracticalGuide-book/tree/main/第3章_RAG/3.4%20RAGからAgentへ/3.4.3%20Agentic%20RAGの実装/3.4.3.4　ベクトル化と検索処理の定義) |
+| 3.4.3.3 データセットの準備 | [dataset.py](https://github.com/AvanadeJapanPublishingQuery/AzureOpenAIAgent-RAG-PracticalGuide-book/tree/main/第3章_RAG/3.4%20RAGからAgentへ/3.4.3.3　データセットの準備) |
+| 3.4.3.4 ベクトル化と検索処理 | [search.py](https://github.com/AvanadeJapanPublishingQuery/AzureOpenAIAgent-RAG-PracticalGuide-book/tree/main/第3章_RAG/3.4%20RAGからAgentへ/3.4.3.4　ベクトル化と検索処理の定義) |
 | 3.4.3.5 Agenticな要素 | [agentic.py](https://github.com/AvanadeJapanPublishingQuery/AzureOpenAIAgent-RAG-PracticalGuide-book/tree/main/第3章_RAG/3.4%20RAGからAgentへ/3.4.3.5　Agenticな要素) |
 | 3.4.3.6 実行例と出力確認 | [result.py](https://github.com/AvanadeJapanPublishingQuery/AzureOpenAIAgent-RAG-PracticalGuide-book/tree/main/第3章_RAG/3.4%20RAGからAgentへ/3.4.3.6　実行例と出力の確認) |
 | 4.1.1 Agent-Based Modeling | [predator_prey.py](https://github.com/AvanadeJapanPublishingQuery/AzureOpenAIAgent-RAG-PracticalGuide-book/tree/main/第4章_AIエージェント/4.1%20エージェントとは/4.1.1%20Agent-Based%20Modeling) |
@@ -195,7 +197,13 @@ Amazon: https://www.amazon.co.jp/dp/4296080466/
 | 5.5.1 生成AIモデルの自動最適化 | [app.py](https://github.com/AvanadeJapanPublishingQuery/AzureOpenAIAgent-RAG-PracticalGuide-book/tree/main/第5章_エッジAI/5.5%20MICROSOFT%20OLIVEを使ったエッジAIシステム構築/5.5.1%20生成AIモデルの自動最適化) |
 
 ## 9. 免責事項
-- 本書の内容は原則として、2025年9月時点の情報を基にしています。
+- 本書は、マイクロソフト主催の「Microsoft Ignite 2024」(2024年11月開催)および「Microsoft Build2025」(2025年5月開催)で、マイクロソフトが発表した内容と、その後のマイクロソフトによる重要なアップデートを可能な限り反映しています。
+- 本書は、特に断りのない限り、2025年8月現在の情報に基づいて作成されています。本書で紹介するハードウェア、ソフトウェア、サービスはバージョンアップされる場合があり、ご利用時には、
+変更されている場合もありますのであらかじめご了承ください。
+- 本書に記載された内容は、情報の提供のみを目的としています。本書の情報の運用の結果について、出版社および著者は一切責任を負わないものとします。
+- 本書の内容を参考にされる場合は、必ずお客様自身の責任と判断において、最新の情報と照らし合わせた上での十分な検証をお願いします。
+- 本書に記載されている会社名、製品名、サービス名などは、一般に各社の商標または登録商標です。本書では、TM、®、©などのマークを省略しています。
+- 本書籍およびサポートサイトで提供するソースコードは、アバナード株式会社の著作物です。
 - 本コードは学習・検証目的です。本番利用時はセキュリティ / スケーラビリティ / コスト最適化 / ガバナンスを別途考慮してください。
 - 外部 API / サービス仕様変更により動作が変わる可能性があります。
 
